@@ -6,5 +6,4 @@ use Config\Database;
 $pdo = Database::connect();
 
 $controller = new GameController($pdo);
-// $controller->index();
-
+$controller->index();
